@@ -8,6 +8,7 @@ function GoalInput(props) {
     setEnteredGoalText(enteredText);
   }
 
+  // Helper 함수
   function addGoalHandler() {
     props.onAddGoal(enteredGoalText);
     setEnteredGoalText('');
